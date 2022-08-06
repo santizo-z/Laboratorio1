@@ -1,0 +1,174 @@
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #2f3542;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* No Scrollbar */
+    overflow: hidden;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    background: #191919;
+    text-align: center;
+}
+
+.form-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: #ffffff;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #5352ed;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
+Imagenes/
+.jp{
+    width: 37.5rem;
+    height: 24rem;
+}
+Circulos/
+.circulos{
+    display: flex;
+    flex-direction: row;
+
+}
+.ff{
+    border-radius: 8rem;
+    margin-left: 16rem;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+ background-color: mediumslateblue;
+}
+.gg{
+    border-radius: 8rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(146, 23, 23);
+}
+.xx{
+    border-radius: 8rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(180, 180, 28);
+}
+temA lorem/
+.pepe{
+    font-size: large;
+    margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+.kl{
+    color: rgb(230, 223, 223);
+    font-style: oblique;
+    font-family: cursive;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* Botones */
+.fg{
+ display: flex;
+ flex-direction: row;
+}
+.like{
+
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    width: 10rem;
+    height: 3.5rem;
+
+ 
+ display: flex;
+ flex-direction: row;
+}
+.coment{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    width: 10rem;
+    height:3.5rem;
+ 
+
+ display: flex;
+ flex-direction: row;
+
+}
+imagen like/
+.vb{
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+}
+.re{
+ margin-top: 0.8rem;
+ margin-left: 2rem;
+ 
+}
+imagen coment/
+.lñ{
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+}
+.cm{
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+}
+Acciones/
+.coment:hover{
+    transition: 0.5s;
+    background-color: aquamarine;
+    width: 12rem;
+}
