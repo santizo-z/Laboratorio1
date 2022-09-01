@@ -1,0 +1,108 @@
+Imagenes/
+body{
+    margin: 0em;
+    font-family: sans-serif;
+}
+.jp{
+    width: 37.5rem;
+    height: 24rem;
+}
+Circulos/
+.circulos{
+    display: flex;
+    flex-direction: row;
+
+}
+.ff{
+    border-radius: 8rem;
+    margin-left: 20rem;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+ background-color: gray;
+}
+.gg{
+    border-radius: 8rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(209, 202, 202);
+}
+.xx{
+    border-radius: 8rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(221, 221, 216);
+}
+temA lorem/
+.pepe{
+    font-size: large;
+    margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+.kl{
+    color: rgb(230, 223, 223);
+    font-style: oblique;
+    font-family: cursive;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* Botones */
+.fg{
+ display: flex;
+ flex-direction: row;
+}
+.like{
+
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    width: 10rem;
+    height: 3.5rem;
+
+ 
+ display: flex;
+ flex-direction: row;
+}
+.coment{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    width: 10rem;
+    height:3.5rem;
+ 
+
+ display: flex;
+ flex-direction: row;
+
+}
+imagen like/
+.vb{
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+}
+.re{
+ margin-top: 0.8rem;
+ margin-left: 4rem;
+ 
+}
+imagen coment/
+.lñ{
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+    width: 2rem;
+    height: 2rem;
+}
+.cm{
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+}
+Acciones/
+.coment:hover{
+    transition: 0.5s;
+    background-color: aquamarine;
+    width: 12rem;
+}
